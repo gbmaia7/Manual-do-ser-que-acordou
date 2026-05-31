@@ -41,6 +41,8 @@ const CosmicStars = () => {
 export default function App() {
   return (
     <div className="relative min-h-screen font-sans bg-background text-foreground overflow-x-hidden selection:bg-primary/30">
+      {/* Glow fundo mistico roxo */}
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,rgba(45,10,95,0.15)_0%,transparent_100%)] pointer-events-none z-0"></div>
       
       {/* Hero Section */}
       <section className="relative flex flex-col justify-center px-4 py-20 min-h-screen pt-28">
@@ -77,7 +79,7 @@ export default function App() {
             <div className="flex justify-center lg:justify-start">
               <a href="#comprar" className="group relative inline-flex items-center justify-center gap-3 bg-gradient-gold text-primary-foreground font-bold text-lg sm:text-xl md:text-2xl rounded-lg shadow-[0_0_50px_rgba(245,166,35,0.4)] hover:shadow-[0_0_80px_rgba(245,166,35,0.6)] hover:scale-[1.02] transition-all duration-300 w-full sm:w-auto text-center px-10 py-6 uppercase tracking-wider">
                 <Flame className="w-5 h-5 flex-shrink-0" />
-                <span>Quero Despertar Agora</span>
+                <span className="whitespace-nowrap">Quero Despertar Agora</span>
               </a>
             </div>
             
@@ -186,6 +188,20 @@ export default function App() {
         </div>
       </section>
 
+      {/* Seção da Autora */}
+      <section className="relative px-4 py-32 border-t border-primary/5">
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
+          <BookOpen className="w-16 h-16 text-primary mx-auto mb-6 opacity-90" />
+          <p className="text-sm uppercase tracking-[0.3em] text-gradient-gold mb-6 font-bold">POR</p>
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold mb-10 text-gradient-gold drop-shadow-lg">
+            KAY'LANI FERNANDES
+          </h2>
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed font-light max-w-3xl mx-auto">
+            Pesquisadora da consciência e fundadora do Shiram — Templo-Escola Solar. Após anos investigando as estruturas ocultas da realidade, ela reúne neste manual o conhecimento essencial para quem está pronto para lembrar quem realmente é.
+          </p>
+        </div>
+      </section>
+
       {/* Final Portal Section */}
       <section id="comprar" className="relative px-4 py-32 border-t border-primary/5">
         <CosmicStars />
@@ -201,7 +217,7 @@ export default function App() {
             </h2>
             <p className="text-lg sm:text-xl uppercase tracking-[0.2em] text-muted-foreground mb-12">Desperte. Lembre. Assuma.</p>
             
-            <div className="my-12 py-10 px-8 rounded-2xl bg-[#0b091a]/80 border border-primary/20 inline-block w-full max-w-sm">
+            <div className="my-12 py-10 px-8 rounded-2xl bg-[#080414]/80 border border-primary/20 inline-block w-full max-w-sm">
               <p className="text-lg text-muted-foreground line-through mb-4 font-medium">De R$ 97,00</p>
               <div className="flex items-start justify-center pb-2">
                 <span className="text-4xl font-bold mt-2 mr-2 text-gradient-gold">R$</span>
@@ -255,7 +271,7 @@ export default function App() {
       </section>
 
       {/* Footer */}
-      <footer className="relative px-4 py-16 border-t border-primary/10 text-center text-sm text-muted-foreground bg-[#0b091a]">
+      <footer className="relative px-4 py-16 border-t border-primary/10 text-center text-sm text-muted-foreground bg-[#0b0616]">
         <p className="font-display text-2xl tracking-[0.3em] text-primary mb-4 font-bold opacity-80">SHIRAM</p>
         <p className="uppercase tracking-[0.2em] text-[10px] sm:text-xs opacity-60">Templo-Escola Solar · &copy; 2026 Kay'lani Fernandes</p>
       </footer>

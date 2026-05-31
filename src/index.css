@@ -4,11 +4,11 @@
 @theme {
   --color-gold: #f5a623; 
   --color-primary: #f5a623;
-  --color-primary-foreground: #0b091a;
-  --color-card: rgba(20, 16, 40, 0.4);
+  --color-primary-foreground: #0b0616;
+  --color-card: rgba(20, 10, 40, 0.4);
   --color-muted-foreground: #9ca3af; 
   --color-foreground: #ffffff;
-  --color-background: #0b091a; /* Fundo unificado azul cósmico mais claro baseado no feedback */
+  --color-background: #0b0616; /* Fundo unificado azul/roxo cósmico místico  */
 
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Cinzel", ui-serif, Georgia, serif;
