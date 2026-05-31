@@ -1,0 +1,6 @@
+{
+  "name": "Manual do Ser Que Acordou",
+  "description": "Uma landing page mística e cósmica com elementos dourados (gold gradient), criada para promover o e-book 'Manual do Ser Que Acordou'. Reconstruída e otimizada com React e Tailwind V4.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
